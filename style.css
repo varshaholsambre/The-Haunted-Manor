@@ -1,0 +1,354 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#homeButton{
+    position:fixed;
+    bottom:20px;
+    left:47%;
+  font-family: Garamond, serif;
+}
+
+#retryButton{
+ position:fixed;
+    bottom:20px;
+    left:47%; 
+    font-family: Garamond, serif;
+}
+
+#enterButton{
+    position:fixed;
+    bottom:20px;
+    left:47%;
+  font-family: Garamond, serif;
+}
+
+#upstairsButton{
+    position:fixed;
+    left:80%;
+  font-family: Garamond, serif;
+}
+
+#atticButton{
+    position:fixed;
+    left:83%;
+    top: 40px;
+  font-family: Garamond, serif;
+}
+
+#backtofoyerButton{
+  position:fixed;
+  left:10%;
+}
+
+#backtoupstairsButton{
+  position:fixed;
+  left:10%;
+}
+
+#win{
+  position:fixed;
+  left:80%;
+  top:300px;
+  font-family: Garamond, serif;
+}
+
+#cat{
+  width: 5%;  
+  height: auto;  
+  position: absolute;
+  top:49.7%;
+  left:45%;
+  filter: sepia(100%) opacity(40%);
+}
+#urn{
+  width: 5.5%;  
+  height: auto;  
+  position: absolute;
+  top:66%;
+  left:27%;
+  filter: brightness(40%) sepia(80%) opacity(60%);
+}
+#mirror{
+  width: 3%;  
+  height: auto;  
+  position: absolute;
+  top:55.35%;
+  right:22.2%;
+  filter: contrast(50%) brightness(50%) opacity(75%);
+}
+
+#scissors{
+  width: 3%;  
+  height: auto;  
+  position: absolute;
+  top:92%;
+  right:29%;
+  filter: opacity(55%);
+}
+
+#lantern{
+  width: 4%;  
+  height: auto;  
+  position: absolute;
+  top:65%;
+  right:5%;
+  filter: opacity(35%);
+}
+
+#book{
+  width: 95px;  
+  height: 75;  
+  position: absolute;
+  top:50%;
+  left:15%;
+  filter: brightness(50%) sepia(60%) opacity(75%) ;
+}
+
+#vial{
+   width: 30px;  
+  height: 90;  
+  position: absolute;
+  top:80%;
+  right:35%;
+}
+
+
+#bear{
+  width: 60px;  
+  height: auto;  
+  position: absolute;
+  top:15.5%;
+  left:28%;
+  filter: brightness(50%) sepia(70%) opacity(70%) ;
+}
+
+#brush{
+  width: 55px;  
+  height: auto;  
+  position: absolute;
+  top:53%;
+  right:24%;
+  filter: sepia(70%) opacity(57%) ;
+}
+
+#ball{
+  width: 55px;  
+  height: auto;  
+  position: absolute;
+  top:41%;
+  right:18.5%;
+  filter: sepia(70%) opacity(56%) ;
+}
+
+#skeleton{
+  width: 400px;  
+  height: auto;  
+  position: absolute;
+  top:50%;
+  right:3%;
+  filter:brightness(60%) sepia(80%) opacity(70%) ;
+}
+
+#necklace{
+  width: 50px;  
+  height: auto;  
+  position: absolute;
+  top:40%;
+  right:41.5%;
+  filter: brightness(60%) opacity(45%) ;
+}
+
+#bat{
+  width: 70px;  
+  height: auto;  
+  position: absolute;
+  top:10%;
+  left:13.5%;
+  filter: brightness(60%) opacity(70%) ;
+}
+
+#clock{
+  width: 200px;  
+  height: auto;  
+  position: absolute;
+  top:50%;
+  left:3%;
+  filter: contrast() brightness(60%) sepia(50%) opacity(75%) ;
+  transform: scaleX(-1);
+}
+
+#doll{
+  width: 100px;  
+  height: auto;  
+  position: absolute;
+  top:53%;
+  left:26%;
+  filter: sepia(50%) opacity(75%) ;
+}
+
+#mute{
+  width: 50px;  
+  height: auto;  
+  position: absolute;
+  filter: invert(100%);
+}
+#ghost{
+  width: 390px;  
+  height: auto;  
+  position: absolute;
+  top:20%;
+  left:10%;
+  filter: invert(100%) opacity(60%);
+}
+#ghost2{
+  width: 175px;  
+  height: auto;  
+  position: absolute;
+  top:26%;
+  right:43%;
+  filter: invert(80%) opacity(50%);
+}
+#ghost3{
+  width: 280px;  
+  height: auto;  
+  position: absolute;
+  top:34%;
+  right:50%;
+  filter: invert(75%) opacity(20%);
+  transform: scaleX(-1);
+}
+
+#dance1{
+  width: 300px;  
+  height: auto;  
+  position: absolute;
+  top:35%;
+  left:15%;
+}
+
+#dance2{
+  width: 200px;  
+  height: auto;  
+  position: absolute;
+  top:47%;
+  left:13%;
+}
+
+#dance3{
+  width: 350px;  
+  height: auto;  
+  position: absolute;
+  top:43%;
+  left:0%;
+}
+
+#dance4{
+  width: 300px;  
+  height: auto;  
+  position: absolute;
+  top:35%;
+  right:17%;
+}
+
+#dance5{
+  width: 200px;  
+  height: auto;  
+  position: absolute;
+  top:47%;
+  right:14%;
+}
+
+#dance6{
+  width: 350px;  
+  height: auto;  
+  position: absolute;
+  top:43%;
+  right:2%;
+}
+
+#cardColor{
+  background-color: #cc8914;
+}
+
+#clue{
+  font-family: Garamond, serif;
+  z-index: 10;
+}
+
+#clueUpstairs{
+  font-family: Garamond, serif;
+}
+
+#clueAttic{
+  font-family: Garamond, serif;
+}
+
+#cardText{
+  font-family: Garamond, serif;
+}
+
+#begin{
+  font-family: Garamond, serif;
+}
+
+#begin2{
+  font-family: Garamond, serif;
+}
+
+#begin3{
+  font-family: Garamond, serif;
+}
+
+#output{
+  font-family: Garamond, serif;
+}
+
+.room-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url("https://www.dsogaming.com/wp-content/uploads/2016/09/b-o-w-qin-02.jpg");
+  background-size: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center;
+}
+
+.room-image-upstairs {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url("https://www.mobygames.com/images/promo/original/b1a1bf37c59d441fbfb687298169f6eb.jpg");
+  background-size: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center;
+}
+
+.room-image-attic {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url("https://archive.louisville.com/sites/default/files/article_image/fortgeorge5.jpg");
+  background-size: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center;
+  overflow: hidden;
+}
+.room-image-win {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url("https://media.istockphoto.com/photos/vineyard-entrance-picture-id178039770?k=20&m=178039770&s=612x612&w=0&h=z8PuqGYo7YXMTwjiE-qCWTPAhD-YLB120jQPlm4dOLg=");
+  background-size: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center;
+}
+
+.body{
+  background-color: black;
+}
