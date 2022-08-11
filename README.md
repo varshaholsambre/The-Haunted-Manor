@@ -4,4 +4,5 @@ An interactive scavenger hunt web application that follows a player’s quest th
 
 https://the-haunted-manor.vholsambre.repl.co/
 
-[Foyer.webm](https://user-images.githubusercontent.com/68751044/183223141-130945e9-d652-4756-9571-aacedbd1fa70.webm)
+
+![Foyer](https://user-images.githubusercontent.com/68751044/184049282-01bfcc9f-6630-43b3-86b7-30b527037dc9.gif)
